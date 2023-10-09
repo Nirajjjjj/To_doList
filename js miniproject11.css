@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+    /* background-image: url("todo-pic.jpg");
+    background-size: cover; */
+}
+.main{
+    height: 470px;
+    width: 480px;
+    border: 2.5px solid black;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+    /* background-color:black ; */
+    padding-top: 30px;
+}
+.main h2{
+    /* color: #fff; */
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.search{
+    width: 53%;
+    height: 22px;
+    margin: auto;
+    align-items: center;
+    margin-top: 2rem;
+    /* background-color: #4e38f0; */
+    /* border: 3px solid #4e38f0; */
+    border-radius: 1px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+
+}
+.search button{
+    appearance: none;
+    opacity: 0.5;
+    margin: auto;
+    align-items: center;
+    margin-right: 0%;
+    /* background-color: #4e38f0; */
+
+}
+button:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    background-color: bisque;
+    border: 2px darkcyan;
+
+}
+.search input:hover{
+    box-shadow: 5px 5px 10px 2px rgba(183, 69, 12, 0.8);
+}
+li{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(121, 98, 139);
+    /* border: 2.5px solid black; */
+    border-radius: 3px;
+    margin: auto;
+    align-items: center;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
